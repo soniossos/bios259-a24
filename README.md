@@ -26,9 +26,6 @@ This course aims to foster a culture of reproducibility, open science, open sour
 **Containerization with Docker and Singularity:**
 Understand how to encapsulate your computational environment, ensuring consistent and reproducible execution across different systems.
 
-**Workflow management using Snakemake/nf-core:**
-Dive into Snakemake, a powerful workflow management system, and gain hands-on experience creating, executing, and managing complex computational workflows. We will also explore the basics of Nextflow and get hands-on experience with nf-core pipelines.
-
 **Documentation and code and data sharing:**
 Learn best practices for organizing, sharing, and documenting code and data to facilitate reproducibility and enable others to build upon your work.
 
@@ -42,7 +39,7 @@ Learn best practices for organizing, sharing, and documenting code and data to f
 |------------|---------|-----------------------------------------------|----------|-------------|-------------------------|
 | 12.02.2024 | Mon  | Introduction to reproducibility and setting up | 9:30-12:30 | Edwards R166 | [Slides], Setup instructions |
 | 12.03.2024 | Tue | Version Control (Git/GitHub)                   | 9:30-12:30 | Edwards R166       | Slides, [Git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf) |
-| 12.04.2024 | Wed  | Environment management (Conda, Bioconda, Mamba) | 9:30-12:30 | Edwards R166       | [Slides], [Conda cheat sheet]([/03-env-conda/conda-cheatsheet.pdf](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)) |
+| 12.04.2024 | Wed  | Environment management (Conda/Mamba, pixi) | 9:30-12:30 | Edwards R166       | [Slides], [Conda cheat sheet]([/03-env-conda/conda-cheatsheet.pdf](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)) |
 | 12.05.2024 | Thr  | Containerization (Docker, Singularity)          | 9:30-12:30 | Edwards R166       | [Slides], [Docker cheat sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf), [Excercise](/04-containers/) |
 | 12.08.2024 | Fri  | Document and share (Notebooks, FAIR data, and open code) and wrap-up | 10:00-13:00 | Edwards R166 | [Slides], [Excercise](/06-docs-sharing/) |
 
