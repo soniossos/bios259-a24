@@ -13,7 +13,6 @@ This course aims to foster a culture of reproducibility, open science, open sour
 - Gain proficiency in version control systems (e.g., Git) for collaborative code and data tracking
 - Create and share conda environments for software dependency management
 - Utilize containerization tools (e.g., Docker, Singularity) for portable computing environments.
-- Learn techniques for automating workflows and generating reproducible results
 - Develop effective strategies for managing and documenting data and code to ensure reproducibility
 - Implement best practices for transparent and reproducible project organization
 
