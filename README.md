@@ -40,7 +40,7 @@ Learn best practices for organizing, sharing, and documenting code and data to f
 | 12.03.2024 | Tue | Version Control (Git/GitHub)                   | 9:30-12:30 | Edwards R166       | Slides, [Git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf) |
 | 12.04.2024 | Wed  | Environment management (Conda/Mamba, pixi) | 9:30-12:30 | Edwards R166       | [Slides], [Conda cheat sheet]([/03-env-conda/conda-cheatsheet.pdf](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)) |
 | 12.05.2024 | Thr  | Containerization (Docker, Singularity)          | 9:30-12:30 | Edwards R166       | [Slides], [Docker cheat sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf), [Excercise](/04-containers/) |
-| 12.08.2024 | Fri  | Document and share (Notebooks, FAIR data, and open code) and wrap-up | 10:00-13:00 | Edwards R166 | [Slides], [Excercise](/06-docs-sharing/) |
+| 12.06.2024 | Fri  | Document and share (Notebooks, FAIR data, and open code) and wrap-up | 10:00-13:00 | Edwards R166 | [Slides], [Excercise](/06-docs-sharing/) |
 
 
 ### Resources and additional reading material
