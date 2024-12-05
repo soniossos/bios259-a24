@@ -49,7 +49,7 @@ Inside the directory you just created, write your solution to the exercise 1.
 cp 04-containers/exercise1/Dockerfile 04-containers/solutions/<your-SUNet-id>/exercise1/
 cp 04-containers/exercise1/app.py 04-containers/solutions/<your-SUNet-id>/exercise1/
 ```
-Include a README.md file in the directory. Use the template provided below
+Optionally, you can create a `README.md` file in the directory with your name and some details.
 
 
 #### 6. **Modify the Dockerfile**:
