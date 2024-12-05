@@ -4,8 +4,8 @@
 
 This exercise will guide you through modifying a Dockerfile and pushing the resulting Docker image to Docker Hub. The Dockerfile contains a simple Python application that takes a ``--name`` argument with a default value. Your task is to replace the default name with your first name and then rebuild and push the modified Docker image to Docker Hub.
 
-### Instructions
-Click the Fork button in the top-right corner to create a copy of the repository under your GitHub account.
+## Instructions
+Please follow the step-by-step instructions to complete this hands-on-excercise.
 
 #### 1. **Fork the repository**:
 First go to the GitHub repo **https://github.com/asntech/bios259-a24** and click the **Fork** button in the top-right corner to create a copy of the repository under your GitHub account.

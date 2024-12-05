@@ -1,4 +1,4 @@
-FROM <your_docker_hub_id>/bios259:<add the tag here>
+FROM <your_peer_docker_hub_id>/bios259:<add the tag here>
 
 ## Install latest version of seaborn uisng pip from PyPI - https://pypi.org/project/seaborn/
 <add the command here to install>

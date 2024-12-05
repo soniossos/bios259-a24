@@ -5,56 +5,65 @@ This exercise will guide you through using an existing image, the one you create
 
 **Note:** Please complete [**exercise 1**](/04-containers/exercise1/) first before you work on this.
 
-### Instructions
+## Instructions
 
-1. **Work on the cloned repository**: You already have the GitHub repo https://github.com/asntech/bios259-a24 locally. Next change the working directory to  `04-containers/exercise2`  where you will find Dockerfile and the Python application `app2.py`.
+####  1. **Work on the cloned repository**:
+You already have the forcked copy GitHub repo https://github.com/asntech/bios259-a24 locally.
+Next change the working directory to  `04-containers/exercise2`  where you will find Dockerfile and the Python application `app2.py`.
 
-    ```bash
-    cd bios259-a24/04-containers/exercise2
-    ```
+```bash
+cd bios259-a24/04-containers/exercise2
+```
 
-2. **Modify the Dockerfile**: Open the `Dockerfile` in a text editor. You need to use the docker image from your docker hub account that your peer pushed in exercise 1 as the starting point. You will see in the app2.py that it now also requires `seaborn` package to run `app2.py` and we already have `python` and `click` pre-installed.
+#### 2. Create a solution directory for excercise 2
+Create a folder for excercise2 now in the solutions folder under your SUNet ID:
+Replace `<your-SUNet-id>` with your SUNet ID.
 
-3. **Build the Docker image**: Once you have modified the Dockerfile, build the Docker image using the `docker build` command. Replace `<image_name>` with a suitable name for your Docker image.
+```bash
+mkdir -p 04-containers/solutions/<your-SUNet-id>/exercise2
+```
 
-    ```bash
-    docker build -t <image_name> .
-    ```
+#### 3. Copy the excerise files and work on your solutions
+Inside the directory you just created, write your solution to the exercise 2.
 
-4. **Run the Docker container**: After the image is built successfully, you can run a container from the image to ensure it works as expected.
+```bash
+cp 04-containers/exercise2/Dockerfile 04-containers/solutions/<your-SUNet-id>/exercise2/
+cp 04-containers/exercise2/app2.py 04-containers/solutions/<your-SUNet-id>/exercise2/
+```
 
-    ```bash
-    docker run <image_name>
-    ```
+#### 4. **Modify the Dockerfile**:
+Open the `Dockerfile` in a text editor or vim. You need to use the docker image from your docker hub account that your peer pushed in exercise 1 as the starting point. You will see in the app2.py that it now also requires `seaborn` package to run `app2.py` and we already have `python` and `click` pre-installed.
 
-    By default, it will print the descriptive statistics for a `seaborn` dataset.
+Instrcutions are added to `Dockerfile` to make the edits.
 
-5. **Push the Docker image to Docker Hub**: Now, it's time to push your modified Docker image to Docker Hub. First, log in to Docker Hub using the `docker login` command.
+#### 5. **Build the Docker image**:
+Once you have modified the Dockerfile, build the Docker image using the `docker build` command. Replace `<image_name>` with a `bios259` and tag it `a24_v2`.
 
-    ```bash
-    docker login
-    ```
+```bash
+docker build -t bios259:a24_v2 .
+```
 
-    Enter your Docker Hub credentials when prompted.
+#### 6. **Run the Docker container**:
+After the image is built successfully, you can run a container from the image to ensure it works as expected.
 
-6. Tag your Docker image using your Docker Hub username and the desired repository name.
+```bash
+docker run bios259:a24_v2
+```
+By default, it will print the descriptive statistics for a `seaborn` dataset.
 
-    ```bash
-    docker tag <image_name> <username>/<repository_name>
-    ```
+#### 7. **Push the Docker image to Docker Hub**: 
 
-7. Finally, push the tagged Docker image to Docker Hub.
+Use the same steps from excercise 1 to push the updated image to your DockerHub. And confirm that your Docker image has been pushed successfully to the same repo with an updated version `a24_v2`.
 
-    ```bash
-    docker push <username>/<repository_name>
-    ```
+#### 8. Push changes to GitHub:
+Let's repeat the same steps from excercise 1.
+Optionally, you can create a `README.md` file in the directory with your name and some details.
 
-8. Verify on Docker Hub: Visit your Docker Hub profile online and confirm that your Docker image has been pushed successfully.
+#### 9. Make a Pull Request:
+Let's repeat the same steps from excercise 1.
 
-9. You may want to commit and push it to GitHub to brush up your Git skills from day 2 :-)
-
-10. **Bonus task**: Create a `Singularity` image using the Docker image you just pushed to Docker Hub and try to run it as a Singularity container on an HPC.
+#### 10. **Bonus task**:
+If you've access to HPC, create a `Singularity` image using the Docker image you just pushed to Docker Hub and try to run it as a Singularity container on an HPC. If you don't have access to HPC, please pair-up with one who has access.
 
 ## Conclusion
-
-Congratulations! You have successfully built a Docker image by extending an existing one in the Docker Hub and installing the tools you need to run the application inside the container. This exercise demonstrates an advanced workflow for Docker image creation and distribution.
+Congratulations!! You have successfully built a Docker image by extending an existing one in the Docker Hub and installing the tools you need to run the application inside the container. This exercise demonstrates an advanced workflow for Docker image creation, distribution and running it on HPC as a Singularity container.
