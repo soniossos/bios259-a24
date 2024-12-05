@@ -1,6 +1,5 @@
 # Essential Docker Commands Cheat Sheet
 
----
 
 ## **General Commands**
 
@@ -14,7 +13,6 @@
    docker info
    ```
 
----
 
 ## **Container Lifecycle**
 
@@ -48,8 +46,6 @@
    docker rm <container_id>
    ```
 
----
-
 ## **Advanced Commands**
 
 1. **Run a Container in Detached Mode:**
@@ -67,7 +63,6 @@
    docker run --memory="512m" --cpus="1" <image_name>
    ```
 
----
 
 ## **Image Management**
 
@@ -115,8 +110,6 @@
    docker image prune -a
    ```
 
----
-
 ## **Saving, Importing, and Exporting**
 
 1. **Save a Docker Image to a `.tar` File:**
@@ -138,8 +131,6 @@
    ```bash
    cat my_container.tar | docker import - my_container
    ```
-
----
 
 ## **Volume Management**
 
@@ -163,8 +154,6 @@
    docker volume rm <volume_name>
    ```
 
----
-
 ## **Networking**
 
 1. **List Docker Networks:**
@@ -187,7 +176,6 @@
    docker network disconnect <network_name> <container_id>
    ```
 
----
 
 ## **Debugging and Troubleshooting**
 
@@ -211,7 +199,6 @@
    docker system df
    ```
 
----
 
 
 ## **Commands for Docker Compose**
@@ -235,8 +222,6 @@
    ```bash
    docker-compose logs
    ```
-
----
 
 
 ## **Key Cleanup Commands**
