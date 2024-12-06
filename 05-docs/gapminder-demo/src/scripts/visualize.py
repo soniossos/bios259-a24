@@ -11,7 +11,7 @@ def visualize_gapminder(input_file, results_dir):
     
     # Life Expectancy Over Time
     plt.figure(figsize=(10, 6))
-    sns.lineplot(data=data, x="year", y="lifeexp", hue="continent", marker="o")
+    sns.lineplot(data=data, x="year", y="life_expectancy", hue="continent", marker="o")
     plt.title("Life Expectancy Over Time by Continent")
     plt.xlabel("Year")
     plt.ylabel("Life Expectancy")
@@ -23,7 +23,7 @@ def visualize_gapminder(input_file, results_dir):
     
     # GDP per Capita Distribution
     plt.figure(figsize=(10, 6))
-    sns.boxplot(data=data, x="continent", y="gdppercap")
+    sns.boxplot(data=data, x="continent", y="gdp_per_capita")
     plt.title("GDP per Capita Distribution by Continent")
     plt.xlabel("Continent")
     plt.ylabel("GDP per Capita")
@@ -37,3 +37,4 @@ if __name__ == "__main__":
     results_dir = "results/figures/"
     os.makedirs(results_dir, exist_ok=True)
     visualize_gapminder(input_file, results_dir)
+

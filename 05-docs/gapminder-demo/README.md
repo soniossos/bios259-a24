@@ -13,14 +13,18 @@ The workflow includes:
 
 ### 1. **Create a reproducible research using cookiecutter**: 
 
-Check the GitHub repo to install cookiecutter and create a project - https://github.com/bios259/cookie-for-reproducible-research
-
-Here is the command to start the project using cookiecutter.
+Here is the command to install and start the project using cookiecutter.
+```bash
+mamba install cookiecutter jinja2-time
+```
 ```bash
 cookiecutter gh:bios259/cookie-for-reproducible-research
 ```
+You can also check the GitHub repo to install cookiecutter and create a project - https://github.com/bios259/cookie-for-reproducible-research
+
+
 ### 2. **Copy necessary from this repo**:
-Copy the necessary files from this repo to making the project as Pixi and add the scripts and data.
+Copy the necessary files (scripts and data) from this repo to making the project as Pixi and add the scripts and data.
 
 Check the `pixi.toml` file for more details.
 

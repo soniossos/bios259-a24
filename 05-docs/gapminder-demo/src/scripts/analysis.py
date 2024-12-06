@@ -6,7 +6,7 @@ def analyze_gapminder(input_file, output_file):
     Analyze the Gapminder dataset and save the summary.
     """
     data = pd.read_csv(input_file)
-    summary = data.groupby("continent")[["lifeexp", "gdppercap", "pop"]].mean().reset_index()
+    summary = data.groupby("continent")[["life_expectancy", "gdp_per_capita", "population"]].mean().reset_index()
     summary.to_csv(output_file, index=False)
     print(f"Analysis summary saved to {output_file}")
 

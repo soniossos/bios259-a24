@@ -12,7 +12,7 @@ def preprocess_gapminder(input_file, output_file):
     print(f"Cleaned data saved to {output_file}")
 
 if __name__ == "__main__":
-    input_file = "data/raw/gapminder-FiveYearData.csv"
+    input_file = "data/raw/gapminder-FiveYearData_20241206.csv"
     output_file = "data/processed/cleaned_gapminder.csv"
     os.makedirs("data", exist_ok=True)
     preprocess_gapminder(input_file, output_file)
