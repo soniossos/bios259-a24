@@ -1,0 +1,26 @@
+---
+title: "The Art of Reproducibility"
+author: "Aziz Khan"
+format: revealjs
+---
+
+## Getting up
+
+-   Turn off alarm
+-   Get out of bed
+- 
+
+## Going to sleep
+
+-   Get in bed
+-   Count sheep
+
+## My Quarto Demo Document
+
+## Introduction
+
+Welcome to my Quarto demo document! In this document, we will learn the basics of Quarto and how to create beautiful and interactive documents.
+
+## Getting Started
+
+To get started with Quarto, you will need to install the Quarto CLI. You can do this by running the following command:
